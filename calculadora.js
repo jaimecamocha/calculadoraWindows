@@ -1,3 +1,6 @@
+// JAIME FERNÁNDEZ CALVO
+// https://github.com/jaimecamocha/calculadoraWindows.git
+
 function addToDisplay(value) {
     var display = document.getElementById('display');
     
