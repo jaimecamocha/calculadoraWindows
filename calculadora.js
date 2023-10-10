@@ -1,5 +1,15 @@
 function addToDisplay(value) {
-    document.getElementById('display').value += value;
+    var display = document.getElementById('display');
+    
+    if (display.value === 'Error') {
+        display.value = '';
+    }
+
+    if (value === '.' && display.value.indexOf('.') !== -1) {
+        return;
+    }
+
+    display.value += value;
 }
 
 function clearDisplay() {

@@ -27,3 +27,10 @@ input[type="button"] {
     font-size: 20px;
     margin: 5px;
 }
+
+input[type="button"][value="="] {
+    width: 100%; /* Esto permite que el botón tome el ancho necesario */
+    height: auto; /* Esto permite que el botón tome la altura necesaria */
+    font-size: 20px; /* Puedes ajustar el tamaño de fuente según tus preferencias */
+    margin: 5px;
+}
